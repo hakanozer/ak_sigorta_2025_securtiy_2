@@ -1,7 +1,9 @@
 package com.works.restcontrollers;
 
 import com.works.entities.Product;
+import com.works.entities.dtos.ProductSaveDto;
 import com.works.services.ProductService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,8 +17,8 @@ public class ProductRestController {
     final ProductService productService;
 
     @PostMapping("save")
-    public Product save(@RequestBody Product product) {
-        return productService.save(product);
+    public Product save(@Valid @RequestBody ProductSaveDto productSaveDto) {
+        return productService.save(productSaveDto);
     }
 
     @GetMapping("list")

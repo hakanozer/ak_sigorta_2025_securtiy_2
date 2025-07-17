@@ -31,8 +31,16 @@ public class CustomerService implements UserDetailsService {
     private final PasswordEncoder passwordEncoder;
     private final JWTService jwtService;
     private final AuthenticationConfiguration configuration;
+    private final TinkEncDec tinkEncDec;
 
     public ResponseEntity login(Customer customer) {
+        // Tink Using
+        String encodedPassword = tinkEncDec.encrypt(customer.getPassword());
+        System.out.println("encodedPassword: " + encodedPassword);
+
+        String decodedPassword = tinkEncDec.decrypt(encodedPassword);
+        System.out.println("decodedPassword: " + decodedPassword);
+
         Map<String,Object> map = new LinkedHashMap<>();
         try {
             configuration.getAuthenticationManager().authenticate(

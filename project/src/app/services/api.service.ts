@@ -22,19 +22,11 @@ export class ApiService {
   }
 
   profileMe() {
-    const token = localStorage.getItem('access_token');
-    const headers = {
-      authorization: `Bearer ${token}`
-    }
-    return this.http.get<IProfile>( userURL.profileMe, { headers } )
+    return this.http.get<IProfile>( userURL.profileMe)
   }
 
   logout() {
-    const token = localStorage.getItem('access_token');
-    const headers = {
-      authorization: `Bearer ${token}`
-    }
-    return this.http.post( userURL.logout, {}, { headers } )
+    return this.http.post( userURL.logout, {} );
   }
 
   getAllProducts() {
@@ -46,11 +38,7 @@ export class ApiService {
   }
 
   getAllUsers() {
-    const token = localStorage.getItem('access_token');
-    const headers = {
-      authorization: `Bearer ${token}`
-    }
-    return this.http.get<IDataUsers>( userURL.getAllUsers, { headers } )
+    return this.http.get<IDataUsers>( userURL.getAllUsers )
   }
 
   searchProducts( q: string ) {

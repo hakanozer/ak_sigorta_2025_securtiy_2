@@ -14,6 +14,7 @@ import { ApiService } from '../../services/api.service';
 })
 export class LoginComponent {
 
+  html = '<b>Alert</b>'
   username = 'hakanozer02@gmail.com';
   password = '123456';
   error = '';
@@ -55,7 +56,7 @@ export class LoginComponent {
         },
         error: (err) => {
           this.error = 'Username or password is incorrect';
-          console.log(err)
+          //console.log(err)
         }
       })
       // this line

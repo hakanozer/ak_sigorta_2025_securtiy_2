@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet, Text, TextInput, View, FlatList } from 'react
 import ProductItem from '../components/ProductItem';
 import { Product } from '../models/IProducts';
 import { products } from '../services/productService';
+import { encrypt } from '../utils/util';
 
 
 export default function AllProduct() {
@@ -13,8 +14,10 @@ export default function AllProduct() {
     products().then(res => {
       const data = res.data
       const arr = data.products
-      setArrProduct(arr)
+      setArrProduct(arr);
     })
+    const cipherText = encrypt("12345")
+    console.log(cipherText)
   }, [])
 
   return (

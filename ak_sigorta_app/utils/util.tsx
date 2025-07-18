@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { IUser } from '../models/IUser'
+import CryptoJS from "react-native-crypto-js";
 
 
 export const userStore = async (user: IUser) => {
@@ -18,4 +19,16 @@ export const userGet = async () => {
     }
   }
   return null
+}
+
+// key123
+export const encrypt = (plainText:string) => {
+  const ciphertext = CryptoJS.AES.encrypt(plainText, 'key123').toString();
+  return ciphertext
+}
+
+export const decrypt = (cipherText:string) => {
+  const bytes  = CryptoJS.AES.decrypt(cipherText, 'key123');
+  const plainText = bytes.toString(CryptoJS.enc.Utf8);
+  return plainText
 }

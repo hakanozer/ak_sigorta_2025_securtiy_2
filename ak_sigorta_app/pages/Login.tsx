@@ -16,6 +16,7 @@ export default function Login() {
 
   const fncSend = () => {
     //setUserName("Ali")
+    //if (username.includes('@'))
     userLogin(username, password).then(res => {
       const dt = res.data
       userStore(dt).then(() => {
@@ -68,7 +69,7 @@ export default function Login() {
     <SafeAreaView style={styles.container}>
       <View style={styles.mainView}>
         <Text style={styles.txtTitle}> User Login </Text>
-        <TextInput defaultValue={username} onChangeText={ nameTxt } autoCapitalize='none' autoComplete='username' placeholder='Username' style={styles.txtInput} />
+        <TextInput maxLength={20} defaultValue={username} onChangeText={ nameTxt } autoCapitalize='none' autoComplete='username' placeholder='Username' style={styles.txtInput} />
         <TextInput defaultValue={password} onChangeText={(txt) => setPassword(txt) } secureTextEntry autoComplete='password' placeholder='Password' style={styles.txtInput} />
 
         <View style={styles.btnView}>

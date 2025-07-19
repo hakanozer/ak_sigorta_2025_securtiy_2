@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.TagHelpers;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.VisualBasic;
 using RestApi.Data;
@@ -43,9 +44,24 @@ namespace RestApi.Controllers
             return Ok(user);
         }
 
+        [HttpPost("loginUser")]
+        public IActionResult LoginUser(UserLoginDto userDto)
+        {
+            string query = "SELECT * FROM Users WHERE Username = {0} AND Password = {1}";
+            Console.WriteLine("Query: " + query);
+            var userDb = _context.Users.FromSqlRaw(query, userDto.Username, userDto.Password).FirstOrDefault();
+            if (userDb == null)
+            {
+                return Unauthorized("Invalid username or password");
+            }
+            return Ok(userDb);
+        }
+
         [HttpPost("login")]
         public IActionResult Login(UserLoginDto userDto)
         {
+            int a = 1;
+            int i = a / 0;
             if (ModelState.IsValid == false)
             {
                 return BadRequest(ModelState);

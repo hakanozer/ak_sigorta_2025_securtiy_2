@@ -1,5 +1,5 @@
 ä
-S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs
+S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs
 public 
 class 
 Startup 
@@ -169,7 +169,7 @@ S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startu
 ;-- 
 }.. 
 }// Ò@
-d/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs
+d/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs
 public 
 class 
 PasswordManager 
@@ -657,8 +657,8 @@ cipherTextCC6 @
 )bb) *
 ;bb* +
 }cc 
-}dd ◊5
-S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.cs
+}dd ¯5
+S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Program.cs
 var 
 builder 
 = 
@@ -819,225 +819,226 @@ QueueLimit 
 .%% 
 WithOrigins%% 
 (%% 
-$str&& 
-,&& 
-$str'' 
-,'' 
-$str(( 
-,(( 
-$str))  
-)** 	
-.++ 	
-AllowAnyHeader++	 
-(++ 
-)++ 
-.,, 	
-AllowAnyMethod,,	 
-(,, 
-),, 
-.-- 	
-AllowCredentials--	 
-(-- 
-)-- 
-;-- 
-}.. 
-).. 
-;.. 
-}// 
-)// 
-;// 
-var33 
-key33 
-=33 	
-Encoding33
+$str&&  
+)'' 	
+.(( 	
+AllowAnyHeader((	 
+((( 
+)(( 
+.)) 	
+AllowAnyMethod))	 
+()) 
+))) 
+.** 	
+AllowCredentials**	 
+(** 
+)** 
+;** 
+}++ 
+)++ 
+;++ 
+},, 
+),, 
+;,, 
+var00 
+key00 
+=00 	
+Encoding00
  
-.33 
-ASCII33 
-.33 
-GetBytes33 !
-(33! "
-builder33" )
-.33) *
-Configuration33* 7
-.337 8
-GetValue338 @
-<33@ A
-string33A G
->33G H
-(33H I
-$str33I R
-)33R S
-)33S T
-;33T U
-builder44 
-.44 
-Services44 
-.44 
-AddAuthentication44 "
-(44" #
-JwtBearerDefaults44# 4
-.444 5 
-AuthenticationScheme445 I
-)44I J
-.55 
-AddJwtBearer55 
-(55 
-options55 
-=>55 
-{66 
-options77 
-.77  
-RequireHttpsMetadata77 $
-=77% &
-false77' ,
-;77, -
-options88 
-.88 
-	SaveToken88 
-=88 
-true88  
-;88  !
-options99 
-.99 %
-TokenValidationParameters99 )
-=99* +
-new99, /%
-TokenValidationParameters990 I
-{:: 	$
-ValidateIssuerSigningKey;; $
-=;;% &
-true;;' +
-,;;+ ,
-IssuerSigningKey<< 
-=<< 
-new<< " 
-SymmetricSecurityKey<<# 7
-(<<7 8
-key<<8 ;
-)<<; <
-,<<< =
-ValidateIssuer== 
-=== 
-false== "
-,==" #
-ValidateAudience>> 
-=>> 
-false>> $
-}?? 	
-;??	 
+.00 
+ASCII00 
+.00 
+GetBytes00 !
+(00! "
+builder00" )
+.00) *
+Configuration00* 7
+.007 8
+GetValue008 @
+<00@ A
+string00A G
+>00G H
+(00H I
+$str00I R
+)00R S
+)00S T
+;00T U
+builder11 
+.11 
+Services11 
+.11 
+AddAuthentication11 "
+(11" #
+JwtBearerDefaults11# 4
+.114 5 
+AuthenticationScheme115 I
+)11I J
+.22 
+AddJwtBearer22 
+(22 
+options22 
+=>22 
+{33 
+options44 
+.44  
+RequireHttpsMetadata44 $
+=44% &
+false44' ,
+;44, -
+options55 
+.55 
+	SaveToken55 
+=55 
+true55  
+;55  !
+options66 
+.66 %
+TokenValidationParameters66 )
+=66* +
+new66, /%
+TokenValidationParameters660 I
+{77 	$
+ValidateIssuerSigningKey88 $
+=88% &
+true88' +
+,88+ ,
+IssuerSigningKey99 
+=99 
+new99 " 
+SymmetricSecurityKey99# 7
+(997 8
+key998 ;
+)99; <
+,99< =
+ValidateIssuer:: 
+=:: 
+false:: "
+,::" #
+ValidateAudience;; 
+=;; 
+false;; $
+}<< 	
+;<<	 
 
-}@@ 
-)@@ 
-;@@ 
-varBB 
-appBB 
-=BB 	
-builderBB
+}== 
+)== 
+;== 
+var?? 
+app?? 
+=?? 	
+builder??
  
-.BB 
-BuildBB 
-(BB 
-)BB 
-;BB 
-ifEE 
-(EE 
-!EE 
-appEE 
-.EE 	
-EnvironmentEE	 
-.EE 
-IsDevelopmentEE "
-(EE" #
-)EE# $
-)EE$ %
-{FF 
-appGG 
-.GG 
-UseHstsGG 
-(GG 
-)GG 
-;GG 
-appHH 
-.HH 
-UseHttpsRedirectionHH 
-(HH 
-)HH 
-;HH 
-}JJ 
-ifQQ 
-(QQ 
-appQQ 
-.QQ 
-EnvironmentQQ 
-.QQ 
-IsDevelopmentQQ !
-(QQ! "
-)QQ" #
-)QQ# $
-{RR 
-appSS 
-.SS %
-UseDeveloperExceptionPageSS !
-(SS! "
-)SS" #
-;SS# $
-}TT 
+.?? 
+Build?? 
+(?? 
+)?? 
+;?? 
+ifBB 
+(BB 
+!BB 
+appBB 
+.BB 	
+EnvironmentBB	 
+.BB 
+IsDevelopmentBB "
+(BB" #
+)BB# $
+)BB$ %
+{CC 
+appDD 
+.DD 
+UseHstsDD 
+(DD 
+)DD 
+;DD 
+appEE 
+.EE 
+UseHttpsRedirectionEE 
+(EE 
+)EE 
+;EE 
+}GG 
+appKK 
+.KK 
+UseCorsKK 
+(KK "
+MyAllowSpecificOriginsKK "
+)KK" #
+;KK# $
+ifNN 
+(NN 
+appNN 
+.NN 
+EnvironmentNN 
+.NN 
+IsDevelopmentNN !
+(NN! "
+)NN" #
+)NN# $
+{OO 
+appPP 
+.PP %
+UseDeveloperExceptionPagePP !
+(PP! "
+)PP" #
+;PP# $
+}QQ 
+appSS 
+.SS 
+UseMiddlewareSS 
+<SS "
+ErrorHandlerMiddlewareSS (
+>SS( )
+(SS) *
+)SS* +
+;SS+ ,
+appTT 
+.TT 
+UseMiddlewareTT 
+<TT 
+GlobalMiddlewareTT "
+>TT" #
+(TT# $
+)TT$ %
+;TT% &
+appUU 
+.UU 
+UseRateLimiterUU 
+(UU 
+)UU 
+;UU 
 appVV 
-.VV 
-UseMiddlewareVV 
-<VV "
-ErrorHandlerMiddlewareVV (
->VV( )
-(VV) *
-)VV* +
-;VV+ ,
+.VV 
+UseHttpsRedirectionVV 
+(VV 
+)VV 
+;VV 
 appWW 
-.WW 
-UseMiddlewareWW 
-<WW 
-GlobalMiddlewareWW "
->WW" #
-(WW# $
-)WW$ %
-;WW% &
+.WW 
+UseAuthenticationWW 
+(WW 
+)WW 
+;WW 
 appXX 
-.XX 
-UseRateLimiterXX 
-(XX 
-)XX 
-;XX 
-appYY 
-.YY 
-UseHttpsRedirectionYY 
-(YY 
-)YY 
-;YY 
+.XX 
+UseAuthorizationXX 
+(XX 
+)XX 
+;XX 
 appZZ 
-.ZZ 
-UseAuthenticationZZ 
-(ZZ 
-)ZZ 
-;ZZ 
-app[[ 
-.[[ 
-UseAuthorization[[ 
-([[ 
-)[[ 
-;[[ 
-app]] 
-.]] 
-MapControllers]] 
-(]] 
-)]] 
-;]] 
-app__ 
-.__ 
-Run__ 
-(__ 
-)__ 	
-;__	 
+.ZZ 
+MapControllersZZ 
+(ZZ 
+)ZZ 
+;ZZ 
+app\\ 
+.\\ 
+Run\\ 
+(\\ 
+)\\ 	
+;\\	 
 •	
-W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/User.cs
+W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/User.cs
 	namespace 	
 RestApi
  
@@ -1133,7 +1134,7 @@ W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
 ;7 8
 } 
 } Õ
-Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Product.cs
+Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Product.cs
 	namespace 	
 RestApi
  
@@ -1195,7 +1196,7 @@ Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
 } 
 } Ç
 
-W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Note.cs
+W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Note.cs
 	namespace 	
 RestApi
  
@@ -1270,7 +1271,7 @@ ForeignKey	 
 ;. /
 } 
 } ◊
-c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/dto/UserLoginDto.cs
+c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/dto/UserLoginDto.cs
 	namespace 	
 RestApi
  
@@ -1401,7 +1402,7 @@ c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
 ;7 8
 } 
 } —9
-s/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs
+s/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs
 	namespace 	
 RestApi
  
@@ -1830,7 +1831,7 @@ ForeignKey66 $
 }OO 	
 }PP 
 }QQ »
-g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/GlobalMiddleware.cs
+g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/GlobalMiddleware.cs
 public 
 class 
 GlobalMiddleware 
@@ -1887,8 +1888,100 @@ g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middle
 ) 
 ; 
 } 
-} ˛#
-m/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs
+} 	
+e/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs
+	namespace 	
+RestApi
+ 
+. 
+Data 
+{ 
+public 
+
+class  
+ApplicationDbContext %
+:& '
+	DbContext( 1
+{ 
+public  
+ApplicationDbContext #
+(# $
+DbContextOptions$ 4
+<4 5 
+ApplicationDbContext5 I
+>I J
+optionsK R
+)R S
+:T U
+baseV Z
+(Z [
+options[ b
+)b c
+{d e
+}f g
+public
+
+ 
+DbSet
+
+ 
+<
+
+ 
+User
+
+ 
+>
+
+ 
+Users
+
+  
+{
+
+! "
+get
+
+# &
+;
+
+& '
+set
+
+( +
+;
+
++ ,
+}
+
+- .
+public 
+DbSet 
+< 
+Note 
+> 
+Notes  
+{! "
+get# &
+;& '
+set( +
+;+ ,
+}- .
+public 
+DbSet 
+< 
+Product 
+> 
+Products &
+{' (
+get) ,
+;, -
+set. 1
+;1 2
+}3 4
+} 
+} ˛#
+m/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs
 public 
 class "
 ErrorHandlerMiddleware #
@@ -2169,100 +2262,8 @@ WriteAsync++ %
 ;++- .
 },, 	
 }-- 
-}.. 	
-e/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs
-	namespace 	
-RestApi
- 
-. 
-Data 
-{ 
-public 
-
-class  
-ApplicationDbContext %
-:& '
-	DbContext( 1
-{ 
-public  
-ApplicationDbContext #
-(# $
-DbContextOptions$ 4
-<4 5 
-ApplicationDbContext5 I
->I J
-optionsK R
-)R S
-:T U
-baseV Z
-(Z [
-options[ b
-)b c
-{d e
-}f g
-public
-
- 
-DbSet
-
- 
-<
-
- 
-User
-
- 
->
-
- 
-Users
-
-  
-{
-
-! "
-get
-
-# &
-;
-
-& '
-set
-
-( +
-;
-
-+ ,
-}
-
-- .
-public 
-DbSet 
-< 
-Note 
-> 
-Notes  
-{! "
-get# &
-;& '
-set( +
-;+ ,
-}- .
-public 
-DbSet 
-< 
-Product 
-> 
-Products &
-{' (
-get) ,
-;, -
-set. 1
-;1 2
-}3 4
-} 
-} Ã
-b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/CustomValids/CityValid.cs
+}.. Ã
+b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/CustomValids/CityValid.cs
 	namespace 	
 RestApi
  
@@ -2379,7 +2380,7 @@ b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Custom
 } 	
 } 
 } ä"
-i/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/ProductController.cs
+i/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/ProductController.cs
 	namespace 	
 RestApi
  
@@ -2635,803 +2636,949 @@ HttpDelete++	 
 }== 	
 }>> 
 }?? ¥ 
-f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/NoteController.cs
-	namespace 	
-RestApi
+f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/NoteController.cs
+	namespace		 	
+RestApi		
  
-. 
-Controllers 
-{		 
-[
+.		 
+Controllers		 
+{
 
- 
-ApiController
-
- 
-]
-
- 
-[ 
-Route 
+ 
+[ 
+ApiController 
+] 
+[ 
+Route 
 
-(
+(
  
-$str 
-) 
-] 
-[ 
-	Authorize 
-( 
-Roles 
-= 
-$str 
+$str 
 ) 
-] 
-public 
+] 
+[ 
+	Authorize 
+( 
+Roles 
+= 
+$str 
+) 
+] 
+public 
 
-class 
-NoteController 
-:  !
-ControllerBase" 0
-{ 
-private 
-readonly  
-ApplicationDbContext -
-_context. 6
-;6 7
-public 
-NoteController 
-(  
-ApplicationDbContext 2
-context3 :
-): ;
-{ 	
-_context 
-= 
-context 
-; 
-} 	
-[ 	
-HttpPost	 
-] 
-public 
-IActionResult 
-Create #
-(# $
-Note$ (
-note) -
-)- .
-{ 	
-_context 
-. 
-Notes 
-. 
-Add 
-( 
-note #
-)# $
-;$ %
+class 
+NoteController 
+:  !
+ControllerBase" 0
+{ 
+private 
+readonly  
+ApplicationDbContext -
+_context. 6
+;6 7
+public 
+NoteController 
+(  
+ApplicationDbContext 2
+context3 :
+): ;
+{ 	
+_context 
+= 
+context 
+; 
+} 	
+[ 	
+HttpPost	 
+] 
+public 
+IActionResult 
+Create #
+(# $
+Note$ (
+note) -
+)- .
+{ 	
 _context 
-. 
-SaveChanges  
-(  !
-)! "
-;" #
-return 
-Ok 
-( 
-note 
-) 
-; 
-} 	
-[ 	
-HttpPut	 
-( 
-$str 
-) 
-] 
-public 
-IActionResult 
-Update #
-(# $
-int$ '
-id( *
-,* +
-Note, 0
-note1 5
-)5 6
-{   	
-var!! 
-existingNote!! 
-=!! 
-_context!! '
-.!!' (
-Notes!!( -
-.!!- .
-Find!!. 2
-(!!2 3
-id!!3 5
-)!!5 6
-;!!6 7
-if"" 
-("" 
-existingNote"" 
-=="" 
-null""  $
-)""$ %
-{## 
-return$$ 
-NotFound$$ 
-($$  
-)$$  !
-;$$! "
-}%% 
-existingNote&& 
-.&& 
-Content&&  
-=&&! "
-note&&# '
-.&&' (
-Content&&( /
-;&&/ 0
-_context'' 
-.'' 
-SaveChanges''  
-(''  !
-)''! "
-;''" #
-return(( 
-Ok(( 
-((( 
-existingNote(( "
-)((" #
-;((# $
-})) 	
-[++ 	
+. 
+Notes 
+. 
+Add 
+( 
+note #
+)# $
+;$ %
+_context 
+. 
+SaveChanges  
+(  !
+)! "
+;" #
+return 
+Ok 
+( 
+note 
+) 
+; 
+} 	
+[ 	
+HttpPut	 
+( 
+$str 
+) 
+] 
+public   
+IActionResult   
+Update   #
+(  # $
+int  $ '
+id  ( *
+,  * +
+Note  , 0
+note  1 5
+)  5 6
+{!! 	
+var"" 
+existingNote"" 
+="" 
+_context"" '
+.""' (
+Notes""( -
+.""- .
+Find"". 2
+(""2 3
+id""3 5
+)""5 6
+;""6 7
+if## 
+(## 
+existingNote## 
+==## 
+null##  $
+)##$ %
+{$$ 
+return%% 
+NotFound%% 
+(%%  
+)%%  !
+;%%! "
+}&& 
+existingNote'' 
+.'' 
+Content''  
+=''! "
+note''# '
+.''' (
+Content''( /
+;''/ 0
+_context(( 
+.(( 
+SaveChanges((  
+(((  !
+)((! "
+;((" #
+return)) 
+Ok)) 
+()) 
+existingNote)) "
+)))" #
+;))# $
+}** 	
+[,, 	
 
-HttpDelete++	 
-(++ 
-$str++ 
-)++ 
-]++ 
-public,, 
-IActionResult,, 
-Delete,, #
-(,,# $
-int,,$ '
-id,,( *
-),,* +
-{-- 	
-var.. 
-note.. 
-=.. 
-_context.. 
-...  
-Notes..  %
-...% &
-Find..& *
-(..* +
-id..+ -
-)..- .
-;... /
-if// 
-(// 
-note// 
-==// 
-null// 
-)// 
-{00 
-return11 
-NotFound11 
-(11  
-)11  !
-;11! "
-}22 
-_context33 
-.33 
-Notes33 
-.33 
-Remove33 !
-(33! "
-note33" &
-)33& '
-;33' (
+HttpDelete,,	 
+(,, 
+$str,, 
+),, 
+],, 
+public-- 
+IActionResult-- 
+Delete-- #
+(--# $
+int--$ '
+id--( *
+)--* +
+{.. 	
+var// 
+note// 
+=// 
+_context// 
+.//  
+Notes//  %
+.//% &
+Find//& *
+(//* +
+id//+ -
+)//- .
+;//. /
+if00 
+(00 
+note00 
+==00 
+null00 
+)00 
+{11 
+return22 
+NotFound22 
+(22  
+)22  !
+;22! "
+}33 
 _context44 
-.44 
-SaveChanges44  
-(44  !
-)44! "
-;44" #
-return55 
-Ok55 
-(55 
-)55 
-;55 
-}66 	
-[88 	
-HttpGet88	 
-]88 
-public99 
-IActionResult99 
-GetAll99 #
-(99# $
-)99$ %
-{:: 	
-var== 
-notes== 
-=== 
-_context==  
-.==  !
-Notes==! &
-.==& '
-ToList==' -
-(==- .
-)==. /
-;==/ 0
-return>> 
-Ok>> 
-(>> 
-notes>> 
-)>> 
-;>> 
-}?? 	
-}@@ 
-}AA ÷M
-f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs
-	namespace 	
-RestApi
+.44 
+Notes44 
+.44 
+Remove44 !
+(44! "
+note44" &
+)44& '
+;44' (
+_context55 
+.55 
+SaveChanges55  
+(55  !
+)55! "
+;55" #
+return66 
+Ok66 
+(66 
+)66 
+;66 
+}77 	
+[99 	
+HttpGet99	 
+]99 
+public:: 
+IActionResult:: 
+GetAll:: #
+(::# $
+)::$ %
+{;; 	
+var>> 
+notes>> 
+=>> 
+_context>>  
+.>>  !
+Notes>>! &
+.>>& '
+ToList>>' -
+(>>- .
+)>>. /
+;>>/ 0
+return?? 
+Ok?? 
+(?? 
+notes?? 
+)?? 
+;?? 
+}@@ 	
+}AA 
+}BB †Z
+f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs
+	namespace 	
+RestApi
  
-. 
-Controllers 
-{ 
-[ 
+. 
+Controllers 
+{ 
+[ 
 
-EnableCors 
-( 
-$str )
-)) *
-]* +
-[ 
-ApiController 
-] 
-[ 
-Route 
+EnableCors 
+( 
+$str )
+)) *
+]* +
+[ 
+ApiController 
+] 
+[ 
+Route 
 
-(
+(
  
-$str 
-) 
-] 
-public 
+$str 
+) 
+] 
+public 
 
-class 
-AuthController 
-:  !
-ControllerBase" 0
-{ 
-string 
-name 
-= 
-$str 
-; 
-private 
-readonly  
-ApplicationDbContext -
-_context. 6
-;6 7
+class 
+AuthController 
+:  !
+ControllerBase" 0
+{ 
+string 
+name 
+= 
+$str 
+; 
 private 
-readonly 
-IConfiguration '
-_configuration( 6
-;6 7
-public 
-AuthController 
-(  
-ApplicationDbContext 2
-context3 :
-,: ;
-IConfiguration< J
-configurationK X
-)X Y
-{ 	
-_configuration 
-= 
-configuration *
-;* +
-_context 
-= 
-context 
-; 
-} 	
-[!! 	
-HttpPost!!	 
-(!! 
-$str!! 
-)!! 
-]!! 
-public"" 
-IActionResult"" 
-Register"" %
-(""% &
-User""& *
-user""+ /
-)""/ 0
-{## 	
-if$$ 
-($$ 
+readonly  
+ApplicationDbContext -
+_context. 6
+;6 7
+private 
+readonly 
+IConfiguration '
+_configuration( 6
+;6 7
+public 
+AuthController 
+(  
+ApplicationDbContext 2
+context3 :
+,: ;
+IConfiguration< J
+configurationK X
+)X Y
+{ 	
+_configuration 
+= 
+configuration *
+;* +
+_context 
+= 
+context 
+; 
+} 	
+["" 	
+HttpPost""	 
+("" 
+$str"" 
+)"" 
+]"" 
+public## 
+IActionResult## 
+Register## %
+(##% &
+User##& *
+user##+ /
+)##/ 0
+{$$ 	
+if%% 
+(%% 
 
-ModelState$$ 
-.$$ 
-IsValid$$ "
-==$$# %
-false$$& +
-)$$+ ,
-{%% 
-return&& 
+ModelState%% 
+.%% 
+IsValid%% "
+==%%# %
+false%%& +
+)%%+ ,
+{&& 
+return'' 
 
-BadRequest&& !
-(&&! "
+BadRequest'' !
+(''! "
 
-ModelState&&" ,
-)&&, -
-;&&- .
-}'' 
-user(( 
-.(( 
-Password(( 
-=(( 
-BCrypt(( "
-.((" #
-Net((# &
-.((& '
-BCrypt((' -
-.((- .
-HashPassword((. :
-(((: ;
-user((; ?
-.((? @
-Password((@ H
-)((H I
-;((I J
-_context)) 
-.)) 
-Users)) 
-.)) 
-Add)) 
-()) 
-user)) #
-)))# $
-;))$ %
+ModelState''" ,
+)'', -
+;''- .
+}(( 
+user)) 
+.)) 
+Password)) 
+=)) 
+BCrypt)) "
+.))" #
+Net))# &
+.))& '
+BCrypt))' -
+.))- .
+HashPassword)). :
+()): ;
+user)); ?
+.))? @
+Password))@ H
+)))H I
+;))I J
 _context** 
-.** 
-SaveChanges**  
-(**  !
-)**! "
-;**" #
-return++ 
-Ok++ 
-(++ 
-user++ 
-)++ 
-;++ 
-},, 	
-[.. 	
-HttpPost..	 
-(.. 
-$str.. 
-).. 
-].. 
-public// 
-IActionResult// 
-Login// "
-(//" #
-UserLoginDto//# /
-userDto//0 7
-)//7 8
-{00 	
-if11 
-(11 
+.** 
+Users** 
+.** 
+Add** 
+(** 
+user** #
+)**# $
+;**$ %
+_context++ 
+.++ 
+SaveChanges++  
+(++  !
+)++! "
+;++" #
+return,, 
+Ok,, 
+(,, 
+user,, 
+),, 
+;,, 
+}-- 	
+[// 	
+HttpPost//	 
+(// 
+$str// 
+)// 
+]// 
+public00 
+IActionResult00 
+	LoginUser00 &
+(00& '
+UserLoginDto00' 3
+userDto004 ;
+)00; <
+{11 	
+string22 
+query22 
+=22 
+$str22 X
+;22X Y
+Console33 
+.33 
+	WriteLine33 
+(33 
+$str33 '
++33( )
+query33* /
+)33/ 0
+;330 1
+var44 
+userDb44 
+=44 
+_context44 !
+.44! "
+Users44" '
+.44' (
 
-ModelState11 
-.11 
-IsValid11 "
-==11# %
-false11& +
-)11+ ,
-{22 
-return33 
+FromSqlRaw44( 2
+(442 3
+query443 8
+,448 9
+userDto44: A
+.44A B
+Username44B J
+,44J K
+userDto44L S
+.44S T
+Password44T \
+)44\ ]
+.44] ^
+FirstOrDefault44^ l
+(44l m
+)44m n
+;44n o
+if55 
+(55 
+userDb55 
+==55 
+null55 
+)55 
+{66 
+return77 
+Unauthorized77 #
+(77# $
+$str77$ B
+)77B C
+;77C D
+}88 
+return99 
+Ok99 
+(99 
+userDb99 
+)99 
+;99 
+}:: 	
+[<< 	
+HttpPost<<	 
+(<< 
+$str<< 
+)<< 
+]<< 
+public== 
+IActionResult== 
+Login== "
+(==" #
+UserLoginDto==# /
+userDto==0 7
+)==7 8
+{>> 	
+int?? 
+a?? 
+=?? 
+$num?? 
+;?? 
+int@@ 
+i@@ 
+=@@ 
+a@@ 
+/@@ 
+$num@@ 
+;@@ 
+ifAA 
+(AA 
 
-BadRequest33 !
-(33! "
+ModelStateAA 
+.AA 
+IsValidAA "
+==AA# %
+falseAA& +
+)AA+ ,
+{BB 
+returnCC 
 
-ModelState33" ,
-)33, -
-;33- .
-}44 
-var55 
-user55 
-=55 
-new55 
-User55 
-{66 
-Username77 
-=77 
-userDto77 "
-.77" #
-Username77# +
-,77+ ,
-Password88 
-=88 
-userDto88 "
-.88" #
-Password88# +
-}99 
-;99 
-string;; 
-passwordHash1;;  
-=;;! "
-BCrypt;;# )
-.;;) *
-Net;;* -
-.;;- .
-BCrypt;;. 4
-.;;4 5
-HashPassword;;5 A
-(;;A B
-user;;B F
-.;;F G
-Password;;G O
-);;O P
-;;;P Q
-Console<< 
-.<< 
-	WriteLine<< 
-(<< 
-$str<< 1
-+<<2 3
-passwordHash1<<4 A
-)<<A B
-;<<B C
-PasswordManager>> 
-passwordManager>> +
-=>>, -
-new>>. 1
-PasswordManager>>2 A
-(>>A B
-)>>B C
-;>>C D
-string?? 
-newPass?? 
-=?? 
-passwordManager?? ,
-.??, -
-Encrypt??- 4
-(??4 5
-user??5 9
-.??9 :
-Password??: B
-)??B C
-;??C D
-Console@@ 
-.@@ 
-	WriteLine@@ 
-(@@ 
-$str@@ 4
-+@@5 6
-newPass@@7 >
-)@@> ?
-;@@? @
-stringBB 
-decryptedPassBB  
-=BB! "
-passwordManagerBB# 2
-.BB2 3
-DecryptBB3 :
-(BB: ;
-newPassBB; B
-)BBB C
-;BBC D
-ConsoleCC 
-.CC 
-	WriteLineCC 
-(CC 
-$strCC 4
-+CC5 6
-decryptedPassCC7 D
-)CCD E
-;CCE F
-varEE 
-existingUserEE 
-=EE 
-_contextEE '
-.EE' (
-UsersEE( -
-.EE- .
-FirstOrDefaultEE. <
-(EE< =
-uEE= >
-=>EE? A
-uEEB C
-.EEC D
-UsernameEED L
-==EEM O
-userEEP T
-.EET U
-UsernameEEU ]
-)EE] ^
-;EE^ _
-ifFF 
-(FF 
-existingUserFF 
-!=FF 
-nullFF  $
-)FF$ %
-{GG 
-ifII 
-(II 
-BCryptII 
-.II 
-NetII 
-.II 
-BCryptII %
-.II% &
-VerifyII& ,
-(II, -
-userII- 1
-.II1 2
-PasswordII2 :
-,II: ;
-existingUserII< H
-.IIH I
-PasswordIII Q
-)IIQ R
-)IIR S
-{JJ 
-ConsoleKK 
-.KK 
-	WriteLineKK %
-(KK% &
-$strKK& ;
-)KK; <
-;KK< =
-}LL 
-elseMM 
-{NN 
-returnOO 
-UnauthorizedOO '
-(OO' (
-$strOO( :
-)OO: ;
-;OO; <
-}PP 
-}QQ 
-elseRR 
-{SS 
-returnTT 
-NotFoundTT 
-(TT  
-$strTT  0
-)TT0 1
-;TT1 2
-}UU 
-varXX 
-tokenHandlerXX 
-=XX 
-newXX "#
-JwtSecurityTokenHandlerXX# :
-(XX: ;
-)XX; <
-;XX< =
-varYY 
-JwtKeyYY 
-=YY 
-_configurationYY '
-.YY' (
-GetValueYY( 0
-<YY0 1
-stringYY1 7
->YY7 8
-(YY8 9
-$strYY9 B
-)YYB C
-??YYD F
-$strYYG I
-;YYI J
-varZZ 
-keyZZ 
-=ZZ 
-EncodingZZ 
-.ZZ 
-ASCIIZZ $
-.ZZ$ %
-GetBytesZZ% -
-(ZZ- .
-JwtKeyZZ. 4
-)ZZ4 5
-;ZZ5 6
-var\\ 
-tokenDescriptor\\ 
-=\\  !
-new\\" %#
-SecurityTokenDescriptor\\& =
-{]] 
-Subject^^ 
-=^^ 
-new^^ 
-ClaimsIdentity^^ ,
-(^^, -
-new^^- 0
-Claim^^1 6
-[^^6 7
-]^^7 8
-{__ 
-new`` 
-Claim`` 
-(`` 
+BadRequestCC !
+(CC! "
 
-ClaimTypes`` (
-.``( )
-Name``) -
-,``- .
-existingUser``/ ;
-.``; <
-Username``< D
-)``D E
-}aa 
-)aa 
-,aa 
-Expiresbb 
-=bb 
-DateTimebb "
-.bb" #
-UtcNowbb# )
-.bb) *
-AddHoursbb* 2
-(bb2 3
-$numbb3 4
-)bb4 5
-,bb5 6
-SigningCredentialscc "
-=cc# $
-newcc% (
-SigningCredentialscc) ;
-(cc; <
-newcc< ? 
-SymmetricSecurityKeycc@ T
-(ccT U
-keyccU X
-)ccX Y
-,ccY Z
-SecurityAlgorithmscc[ m
-.ccm n 
-HmacSha256Signature	ccn Å
+ModelStateCC" ,
+)CC, -
+;CC- .
+}DD 
+varEE 
+userEE 
+=EE 
+newEE 
+UserEE 
+{FF 
+UsernameGG 
+=GG 
+userDtoGG "
+.GG" #
+UsernameGG# +
+,GG+ ,
+PasswordHH 
+=HH 
+userDtoHH "
+.HH" #
+PasswordHH# +
+}II 
+;II 
+stringKK 
+passwordHash1KK  
+=KK! "
+BCryptKK# )
+.KK) *
+NetKK* -
+.KK- .
+BCryptKK. 4
+.KK4 5
+HashPasswordKK5 A
+(KKA B
+userKKB F
+.KKF G
+PasswordKKG O
+)KKO P
+;KKP Q
+ConsoleLL 
+.LL 
+	WriteLineLL 
+(LL 
+$strLL 1
++LL2 3
+passwordHash1LL4 A
+)LLA B
+;LLB C
+PasswordManagerNN 
+passwordManagerNN +
+=NN, -
+newNN. 1
+PasswordManagerNN2 A
+(NNA B
+)NNB C
+;NNC D
+stringOO 
+newPassOO 
+=OO 
+passwordManagerOO ,
+.OO, -
+EncryptOO- 4
+(OO4 5
+userOO5 9
+.OO9 :
+PasswordOO: B
+)OOB C
+;OOC D
+ConsolePP 
+.PP 
+	WriteLinePP 
+(PP 
+$strPP 4
++PP5 6
+newPassPP7 >
+)PP> ?
+;PP? @
+stringRR 
+decryptedPassRR  
+=RR! "
+passwordManagerRR# 2
+.RR2 3
+DecryptRR3 :
+(RR: ;
+newPassRR; B
+)RRB C
+;RRC D
+ConsoleSS 
+.SS 
+	WriteLineSS 
+(SS 
+$strSS 4
++SS5 6
+decryptedPassSS7 D
+)SSD E
+;SSE F
+varUU 
+existingUserUU 
+=UU 
+_contextUU '
+.UU' (
+UsersUU( -
+.UU- .
+FirstOrDefaultUU. <
+(UU< =
+uUU= >
+=>UU? A
+uUUB C
+.UUC D
+UsernameUUD L
+==UUM O
+userUUP T
+.UUT U
+UsernameUUU ]
+)UU] ^
+;UU^ _
+ifVV 
+(VV 
+existingUserVV 
+!=VV 
+nullVV  $
+)VV$ %
+{WW 
+ifYY 
+(YY 
+BCryptYY 
+.YY 
+NetYY 
+.YY 
+BCryptYY %
+.YY% &
+VerifyYY& ,
+(YY, -
+userYY- 1
+.YY1 2
+PasswordYY2 :
+,YY: ;
+existingUserYY< H
+.YYH I
+PasswordYYI Q
+)YYQ R
+)YYR S
+{ZZ 
+Console[[ 
+.[[ 
+	WriteLine[[ %
+([[% &
+$str[[& ;
+)[[; <
+;[[< =
+}\\ 
+else]] 
+{^^ 
+return__ 
+Unauthorized__ '
+(__' (
+$str__( :
+)__: ;
+;__; <
+}`` 
+}aa 
+elsebb 
+{cc 
+returndd 
+NotFounddd 
+(dd  
+$strdd  0
+)dd0 1
+;dd1 2
+}ee 
+varhh 
+tokenHandlerhh 
+=hh 
+newhh "#
+JwtSecurityTokenHandlerhh# :
+(hh: ;
+)hh; <
+;hh< =
+varii 
+JwtKeyii 
+=ii 
+_configurationii '
+.ii' (
+GetValueii( 0
+<ii0 1
+stringii1 7
+>ii7 8
+(ii8 9
+$strii9 B
+)iiB C
+??iiD F
+$striiG I
+;iiI J
+varjj 
+keyjj 
+=jj 
+Encodingjj 
+.jj 
+ASCIIjj $
+.jj$ %
+GetBytesjj% -
+(jj- .
+JwtKeyjj. 4
+)jj4 5
+;jj5 6
+varll 
+tokenDescriptorll 
+=ll  !
+newll" %#
+SecurityTokenDescriptorll& =
+{mm 
+Subjectnn 
+=nn 
+newnn 
+ClaimsIdentitynn ,
+(nn, -
+newnn- 0
+Claimnn1 6
+[nn6 7
+]nn7 8
+{oo 
+newpp 
+Claimpp 
+(pp 
+
+ClaimTypespp (
+.pp( )
+Namepp) -
+,pp- .
+existingUserpp/ ;
+.pp; <
+Usernamepp< D
+)ppD E
+}qq 
+)qq 
+,qq 
+Expiresrr 
+=rr 
+DateTimerr "
+.rr" #
+UtcNowrr# )
+.rr) *
+AddHoursrr* 2
+(rr2 3
+$numrr3 4
+)rr4 5
+,rr5 6
+SigningCredentialsss "
+=ss# $
+newss% (
+SigningCredentialsss) ;
+(ss; <
+newss< ? 
+SymmetricSecurityKeyss@ T
+(ssT U
+keyssU X
+)ssX Y
+,ssY Z
+SecurityAlgorithmsss[ m
+.ssm n 
+HmacSha256Signature	ssn Å
 )
-ccÅ Ç
-}dd 
-;dd 
-ifee 
-(ee 
-tokenDescriptoree 
-!=ee  "
-nullee# '
-)ee' (
-{ff 
-	ParseRolegg 
-(gg 
-existingUsergg &
-.gg& '
-Rolegg' +
-,gg+ ,
-tokenDescriptorgg- <
-)gg< =
-;gg= >
-}hh 
-varjj 
-tokenjj 
-=jj 
-tokenHandlerjj $
-.jj$ %
-CreateTokenjj% 0
-(jj0 1
-tokenDescriptorjj1 @
-)jj@ A
-;jjA B
-varkk 
-tokenStringkk 
-=kk 
-tokenHandlerkk *
-.kk* +
+ssÅ Ç
+}tt 
+;tt 
+ifuu 
+(uu 
+tokenDescriptoruu 
+!=uu  "
+nulluu# '
+)uu' (
+{vv 
+	ParseRoleww 
+(ww 
+existingUserww &
+.ww& '
+Roleww' +
+,ww+ ,
+tokenDescriptorww- <
+)ww< =
+;ww= >
+}xx 
+varzz 
+tokenzz 
+=zz 
+tokenHandlerzz $
+.zz$ %
+CreateTokenzz% 0
+(zz0 1
+tokenDescriptorzz1 @
+)zz@ A
+;zzA B
+var{{ 
+tokenString{{ 
+={{ 
+tokenHandler{{ *
+.{{* +
 
-WriteTokenkk+ 5
-(kk5 6
-tokenkk6 ;
-)kk; <
-;kk< =
-existingUserll 
-.ll 
-Passwordll !
-=ll" #
-nullll$ (
-;ll( )
-returnmm 
-Okmm 
-(mm 
-newmm 
-{mm 
-Tokenmm !
-=mm" #
-tokenStringmm$ /
-,mm/ 0
-Usermm1 5
-=mm6 7
-existingUsermm8 D
-}mmE F
-)mmF G
-;mmG H
-}nn 	
-privatepp 
-voidpp 
-	ParseRolepp 
-(pp 
-stringpp %
-rolespp& +
-,pp+ ,#
-SecurityTokenDescriptorpp- D
-tokenDescriptorppE T
-)ppT U
-{qq 	
-varrr 
-roleListrr 
-=rr 
-rolesrr  
-.rr  !
-Splitrr! &
-(rr& '
-$charrr' *
-)rr* +
-.rr+ ,
-Selectrr, 2
-(rr2 3
-rrr3 4
-=>rr5 7
-rrr8 9
-.rr9 :
-Trimrr: >
-(rr> ?
-)rr? @
-)rr@ A
-.rrA B
-ToListrrB H
-(rrH I
-)rrI J
-;rrJ K
-foreachss 
-(ss 
-varss 
-roless 
-inss  
-roleListss! )
-)ss) *
-{tt 
-tokenDescriptoruu 
-.uu  
-Subjectuu  '
-.uu' (
-AddClaimuu( 0
-(uu0 1
-newuu1 4
-Claimuu5 :
-(uu: ;
+WriteToken{{+ 5
+({{5 6
+token{{6 ;
+){{; <
+;{{< =
+existingUser|| 
+.|| 
+Password|| !
+=||" #
+null||$ (
+;||( )
+return}} 
+Ok}} 
+(}} 
+new}} 
+{}} 
+Token}} !
+=}}" #
+tokenString}}$ /
+,}}/ 0
+User}}1 5
+=}}6 7
+existingUser}}8 D
+}}}E F
+)}}F G
+;}}G H
+}~~ 	
+private
+ÄÄ 
+void
+ÄÄ 
+	ParseRole
+ÄÄ 
+(
+ÄÄ 
+string
+ÄÄ %
+roles
+ÄÄ& +
+,
+ÄÄ+ ,%
+SecurityTokenDescriptor
+ÄÄ- D
+tokenDescriptor
+ÄÄE T
+)
+ÄÄT U
+{
+ÅÅ 	
+var
+ÇÇ 
+roleList
+ÇÇ 
+=
+ÇÇ 
+roles
+ÇÇ  
+.
+ÇÇ  !
+Split
+ÇÇ! &
+(
+ÇÇ& '
+$char
+ÇÇ' *
+)
+ÇÇ* +
+.
+ÇÇ+ ,
+Select
+ÇÇ, 2
+(
+ÇÇ2 3
+r
+ÇÇ3 4
+=>
+ÇÇ5 7
+r
+ÇÇ8 9
+.
+ÇÇ9 :
+Trim
+ÇÇ: >
+(
+ÇÇ> ?
+)
+ÇÇ? @
+)
+ÇÇ@ A
+.
+ÇÇA B
+ToList
+ÇÇB H
+(
+ÇÇH I
+)
+ÇÇI J
+;
+ÇÇJ K
+foreach
+ÉÉ 
+(
+ÉÉ 
+var
+ÉÉ 
+role
+ÉÉ 
+in
+ÉÉ  
+roleList
+ÉÉ! )
+)
+ÉÉ) *
+{
+ÑÑ 
+tokenDescriptor
+ÖÖ 
+.
+ÖÖ  
+Subject
+ÖÖ  '
+.
+ÖÖ' (
+AddClaim
+ÖÖ( 0
+(
+ÖÖ0 1
+new
+ÖÖ1 4
+Claim
+ÖÖ5 :
+(
+ÖÖ: ;
 
-ClaimTypesuu; E
-.uuE F
-RoleuuF J
-,uuJ K
-roleuuL P
-)uuP Q
-)uuQ R
-;uuR S
-}vv 
-}ww 	
-}yy 
-}zz 
+ClaimTypes
+ÖÖ; E
+.
+ÖÖE F
+Role
+ÖÖF J
+,
+ÖÖJ K
+role
+ÖÖL P
+)
+ÖÖP Q
+)
+ÖÖQ R
+;
+ÖÖR S
+}
+ÜÜ 
+}
+áá 	
+}
+ââ 
+}ää 

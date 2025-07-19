@@ -1,5 +1,5 @@
 Í
-S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs
+S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs
 
  
 
@@ -12,7 +12,7 @@ S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startu
    <
   . 1$$ (( ++ ,, -- 
   G J"" Š
-d/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs
+d/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs
 
  (
    $$ GG 
@@ -45,23 +45,23 @@ d/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Servic
 [[ #
 [[( 6]] ,
 ]] `` bb& )
-^^ `` ÿ
-S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.csP
-        33" )44 BB
+^^ `` ’
+S/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Program.csP
+        00" )11 ??
  
   ' 
 O Z %= H
 
  
-4 ; 
- "" 2
+4 ; 
+ "" 2KK "
     "" 
 ## 
 %% 
-33 <<8 ;(
-55 77 88 99 |
-BB EE GG HH QQ SS VV WW XX YY ZZ [[ ]] __ •
-W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/User.cs
+00 998 ;(
+22 44 55 66 „
+?? BB DD EE KK NN PP SS TT UU VV WW XX ZZ \\ •
+W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/User.cs
 
  
 
@@ -74,7 +74,7 @@ W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
  
 
  Œ
-Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Product.cs
+Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Product.cs
 
  
 
@@ -83,7 +83,7 @@ Z/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
  
 
  •
-W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Note.cs
+W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Note.cs
 
  
 
@@ -94,7 +94,7 @@ W/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
  
 
  •
-c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/dto/UserLoginDto.cs
+c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/dto/UserLoginDto.cs
 
  
 
@@ -103,7 +103,7 @@ c/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models
  
 
  £
-s/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs
+s/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs
 
  &
 
@@ -122,7 +122,7 @@ s/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrat
 
 EE  $(
 EE6 FGG JJ MM Í
-g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/GlobalMiddleware.cs
+g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/GlobalMiddleware.cs
 
  
 % *
@@ -133,8 +133,19 @@ g/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middle
  
 
  
-) 0 ‘
-m/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs
+) 0 ·
+e/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs
+ %5 I
+K R[ b
+
+
+
+  
+
+  
+
+ &‘
+m/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs
 
  #
 % *  
@@ -150,19 +161,8 @@ m/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middle
  * ,
   &(
   %% ++ 
-&& ++& ,·
-e/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs
- %5 I
-K R[ b
-
-
-
-  
-
-  
-
- &´
-b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/CustomValids/CityValid.cs
+&& ++& ,´
+b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/CustomValids/CityValid.cs
 
  
 
@@ -175,7 +175,7 @@ b/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Custom
 		  
 
  ù
-i/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/ProductController.cs
+i/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/ProductController.cs
 
  "d
 . 6     " *'' .. "33 44 ;; #
@@ -195,56 +195,73 @@ i/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Contro
 
 99 #
 ;; << â
-f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/NoteController.cs
+f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/NoteController.cs
 
- d
-. 6   !! ''' .. 33 44 ==  
-3 : 
+ d
+. 6   "" '(( // 44 55 >>  
+3 : 
 
- #
-) - # 
+ #
+) - # 
 
- #
-( *!!3 5
-1 5&&# '(
-!! "" && (( "
+   #
+  ( *""3 5
+  1 5''# '(
+"" ## '' )) "
 
-,, #
-,,( *..+ -
-.. // 33" &
+-- #
+--( *//+ -
+// 00 44" &
 
-99 #
-== >> ú
-f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs
+:: #
+>> ?? ¤
+f/Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs
 
- 
+ 
 
- 2
-. 6 )) ** EE '
-( 6 YY '
-3 : 
-K X *
+ <
+. 6 ** ++ 44 !UU '
+( 6 ii '
+3 : 
+K X *
 
-"" %2
-""+ /(( ((; ?)) #++ 
+## %2
+##+ /)) )); ?** #,, 
 
-// "
-//0 777 "88 "2
-55 ;;B F??5 9EEP TII- 1
-;;  <<4 A
->> +?? ,BB# 2
-?? @@7 >BB; B
-BB  CC7 DF
-EE FF II< H``/ ;gg &ll mm8 D
-EE= >EEB C
-XX jj $kk *
-YY ZZ. 4
-ZZ ccU X(
-\\ ee gg- <jj1 @
-jj kk6 ;
-kk mm$ /
-pp gg 
-pp& +rr  
-ppE Tuu 
-rr ss! )
-rr3 4rr8 9
+00 &
+004 ;44: A44L S
+22 33* /443 8
+44 55 99 
+
+== "
+==0 7GG "HH "
+?? @@ 
+
+@@ 2
+EE KKB FOO5 9UUP TYY- 1
+KK  LL4 A
+NN +OO ,RR# 2
+OO PP7 >RR; B
+RR  SS7 DF
+UU VV YY< Hpp/ ;ww &|| }}8 D
+UU= >UUB C
+hh zz ${{ *
+ii jj. 4
+jj ssU X(
+ll uu ww- <zz1 @
+zz {{6 ;
+{{ }}$ /
+
+€€ ww 
+
+€€& +
+‚‚  
+
+€€E T
+…… 
+
+‚‚ 
+ƒƒ! )
+
+‚‚3 4
+‚‚8 9

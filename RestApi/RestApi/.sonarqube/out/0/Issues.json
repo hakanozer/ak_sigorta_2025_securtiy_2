@@ -21,7 +21,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -34,7 +34,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 28,
@@ -58,7 +58,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -71,7 +71,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 11,
                   "startColumn": 28,
@@ -95,7 +95,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -108,33 +108,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Data/ApplicationDbContext.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Data/ApplicationDbContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 31,
                   "endLine": 12,
                   "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 's' in 'byte[] Encoding.GetBytes(string s)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.cs",
-                "region": {
-                  "startLine": 51,
-                  "startColumn": 35,
-                  "endLine": 51,
-                  "endColumn": 84
                 }
               }
             }
@@ -150,12 +129,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/CustomValids/CityValid.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/CustomValids/CityValid.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 24,
                   "endLine": 12,
                   "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'byte[] Encoding.GetBytes(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Program.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 35,
+                  "endLine": 48,
+                  "endColumn": 84
                 }
               }
             }
@@ -171,11 +171,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 108,
+                  "startLine": 124,
                   "startColumn": 37,
-                  "endLine": 108,
+                  "endLine": 124,
                   "endColumn": 41
                 }
               }
@@ -192,7 +192,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 18,
@@ -213,11 +213,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 22,
+                  "startLine": 23,
                   "startColumn": 16,
-                  "endLine": 22,
+                  "endLine": 23,
                   "endColumn": 20
                 }
               }
@@ -234,7 +234,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
                 "region": {
                   "startLine": 13,
                   "startColumn": 9,
@@ -255,7 +255,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 9,
@@ -276,33 +276,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Program.cs",
                 "region": {
-                  "startLine": 73,
+                  "startLine": 70,
                   "startColumn": 5,
-                  "endLine": 73,
+                  "endLine": 70,
                   "endColumn": 72
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.cs",
-                "region": {
-                  "startLine": 78,
-                  "startColumn": 1,
-                  "endLine": 78,
-                  "endColumn": 39
                 }
               }
             }
@@ -318,11 +297,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 22,
+                  "startLine": 23,
                   "startColumn": 16,
-                  "endLine": 22,
+                  "endLine": 23,
                   "endColumn": 20
                 }
               }
@@ -339,7 +318,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 14,
@@ -360,33 +339,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 14,
                   "endLine": 1,
                   "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1050",
-          "level": "note",
-          "message": "Declare types in namespaces",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/GlobalMiddleware.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 14,
-                  "endLine": 4,
-                  "endColumn": 30
                 }
               }
             }
@@ -402,7 +360,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 12,
@@ -423,12 +381,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 22,
+                  "startLine": 23,
                   "startColumn": 9,
-                  "endLine": 22,
+                  "endLine": 23,
                   "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declare types in namespaces",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/GlobalMiddleware.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 14,
+                  "endLine": 4,
+                  "endColumn": 30
                 }
               }
             }
@@ -444,7 +423,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 29,
@@ -465,70 +444,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 14,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'GlobalMiddleware' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/GlobalMiddleware.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 14,
-                  "endLine": 4,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'ErrorHandlerMiddleware' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 14,
-                  "endLine": 1,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'PasswordManager' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 14,
@@ -549,12 +465,75 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 14,
                   "endLine": 7,
                   "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'PasswordManager' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'GlobalMiddleware' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/GlobalMiddleware.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 14,
+                  "endLine": 4,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'ErrorHandlerMiddleware' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Middleware/ErrorHandlerMiddleware.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 14,
+                  "endLine": 1,
+                  "endColumn": 36
                 }
               }
             }
@@ -570,7 +549,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/CustomValids/CityValid.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/CustomValids/CityValid.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 18,
@@ -591,7 +570,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/CustomValids/CityValid.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/CustomValids/CityValid.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 18,
@@ -612,7 +591,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
                 "region": {
                   "startLine": 17,
                   "startColumn": 50,
@@ -625,7 +604,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
                 "region": {
                   "startLine": 31,
                   "startColumn": 50,
@@ -636,7 +615,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
                 "region": {
                   "startLine": 46,
                   "startColumn": 50,
@@ -647,7 +626,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Migrations/20250311115221_InitialCreate.cs",
                 "region": {
                   "startLine": 49,
                   "startColumn": 54,
@@ -673,33 +652,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 25,
                   "endLine": 10,
                   "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S5344",
-          "level": "warning",
-          "message": "Use at least 100,000 iterations here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 13,
-                  "endLine": 17,
-                  "endColumn": 18
                 }
               }
             }
@@ -715,12 +673,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 36,
+                  "startLine": 37,
                   "startColumn": 36,
-                  "endLine": 36,
+                  "endLine": 37,
                   "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5344",
+          "level": "warning",
+          "message": "Use at least 100,000 iterations here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 13,
+                  "endLine": 17,
+                  "endColumn": 18
                 }
               }
             }
@@ -736,7 +715,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs",
                 "region": {
                   "startLine": 32,
                   "startColumn": 17,
@@ -757,7 +736,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/User.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Product.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 20,
@@ -778,7 +757,28 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Note.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/User.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 20,
+                  "endLine": 8,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Note.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 20,
@@ -799,54 +799,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Product.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 20,
-                  "endLine": 8,
-                  "endColumn": 22
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6964",
-          "level": "warning",
-          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Note.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 20,
-                  "endLine": 15,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6964",
-          "level": "warning",
-          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Models/Product.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Product.cs",
                 "region": {
                   "startLine": 14,
                   "startColumn": 24,
                   "endLine": 14,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Models/Note.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 20,
+                  "endLine": 15,
+                  "endColumn": 26
                 }
               }
             }
@@ -862,11 +841,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 49,
+                  "startLine": 65,
                   "startColumn": 36,
-                  "endLine": 49,
+                  "endLine": 65,
                   "endColumn": 44
                 }
               }
@@ -883,7 +862,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Services/PasswordManager.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Services/PasswordManager.cs",
                 "region": {
                   "startLine": 91,
                   "startColumn": 19,
@@ -904,7 +883,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Startup.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Startup.cs",
                 "region": {
                   "startLine": 45,
                   "startColumn": 9,
@@ -925,11 +904,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Program.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Program.cs",
                 "region": {
-                  "startLine": 95,
+                  "startLine": 92,
                   "startColumn": 1,
-                  "endLine": 95,
+                  "endLine": 92,
                   "endColumn": 10
                 }
               }
@@ -946,12 +925,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 112,
+                  "startLine": 128,
                   "startColumn": 22,
-                  "endLine": 112,
+                  "endLine": 128,
                   "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'i'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 17,
+                  "endLine": 64,
+                  "endColumn": 18
                 }
               }
             }
@@ -967,11 +967,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_1/RestApi/RestApi/Controllers/AuthController.cs",
+                "uri": "file:///Users/hakan/Documents/GitHub/ak_sigorta_2025_securtiy_2/RestApi/RestApi/Controllers/AuthController.cs",
                 "region": {
-                  "startLine": 112,
+                  "startLine": 128,
                   "startColumn": 22,
-                  "endLine": 112,
+                  "endLine": 128,
                   "endColumn": 31
                 }
               }
@@ -1167,6 +1167,23 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
             "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
